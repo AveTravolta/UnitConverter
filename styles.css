@@ -1,0 +1,22 @@
+body {
+    margin: 0.2em;
+    background-color: bisque;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; 
+    text-align: center;
+}
+
+#convert-distance:hover,
+#convert-temp:hover{
+    cursor: pointer;
+    background-color: rgb(178, 178, 178);
+    transform: scale(1.01);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}

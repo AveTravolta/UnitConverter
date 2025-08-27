@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!--Distance Converter-->
+        <h1>Distance Converter</h1>
+        <input type= "number" id= distance-input placeholder="Enter the distance:">
+            <select id= "distance-from">
+                <option value="miles">miles</option>
+                <option value="kilometers">kilometers</option>
+            </select>
+            <span>To</span>
+            <select id="distance-to">
+                <option value="miles">miles</option>
+                <option value="kilometers">kilometers</option>
+            </select>
+            <button id="convert-distance">Convert</button>
+            <button id="reset-distance">Reset</button>
+            <div id="distance-result"></div>
+            <div></div>
+            <br><br>
+            <hr>
+            <!--Temperature Converter-->
+            <h1>Temperature Converter</h1>'
+            <input type= "number" id= temp-input placeholder="Enter the temperature:">
+            <select id= "temp-from">
+                <option value="fahrenheit">fahrenheit</option>
+                <option value="celsius">celsius</option>
+            </select>
+            <span>To</span>
+            <select id="temp-to">
+                <option value="fahrenheit">fahrenheit</option>
+                <option value="celsius">celsius</option>
+            </select>
+            <button id="convert-temp">Convert</button>
+            <button id="reset-temp">Reset</button>
+            <div id="temp-result"></div>
+            <div></div>
+            <br><br>
+    </div>
+   <script src="index.js"></script>
+</body>
+</html>
