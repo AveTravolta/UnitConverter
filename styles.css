@@ -14,7 +14,15 @@ body {
 }
 
 #convert-distance:hover,
-#convert-temp:hover{
+#reset-distance:hover{
+    cursor: pointer;
+    background-color: rgb(178, 178, 178);
+    transform: scale(1.01);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#convert-temp:hover,
+#reset-temp:hover{
     cursor: pointer;
     background-color: rgb(178, 178, 178);
     transform: scale(1.01);
